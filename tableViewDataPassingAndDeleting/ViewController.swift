@@ -31,6 +31,7 @@ class ViewController: UIViewController, UISearchBarDelegate, UISearchControllerD
         self.detalTableview.allowsMultipleSelectionDuringEditing = true
         self.detalTableview.delegate = self
         self.detalTableview.dataSource = self
+        detalTableview.backgroundColor = .cyan
     }
     
     
