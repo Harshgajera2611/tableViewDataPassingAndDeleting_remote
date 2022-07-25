@@ -30,6 +30,7 @@ class ViewController: UIViewController, UISearchBarDelegate, UISearchControllerD
         self.detalTableview.isEditing = true
         self.detalTableview.allowsMultipleSelectionDuringEditing = true
         self.detalTableview.delegate = self
+        self.detalTableview.dataSource = self
     }
     
     
