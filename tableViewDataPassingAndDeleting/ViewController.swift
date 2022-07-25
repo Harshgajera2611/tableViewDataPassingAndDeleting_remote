@@ -29,6 +29,7 @@ class ViewController: UIViewController, UISearchBarDelegate, UISearchControllerD
         detalTableview.separatorStyle = .none
         self.detalTableview.isEditing = true
         self.detalTableview.allowsMultipleSelectionDuringEditing = true
+        self.detalTableview.delegate = self
     }
     
     
